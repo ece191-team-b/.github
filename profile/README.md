@@ -68,6 +68,15 @@ Note: the size of the bag file might become quite big. If a recording is not nee
 Installing depthai on Jetson Xavier
 <https://docs.luxonis.com/projects/api/en/latest/install/#jetson>
 
+### Calibrate the camera using NAV 2
+
+https://navigation.ros.org/tutorials/docs/camera_calibration.html
+
+```bash
+ros2 run camera_calibration cameracalibrator --size 6x6 --square 0.02 --pattern 'chessboard' --ros-args -r image:=/camera/image_0
+ros2 run camera_calibration cameracalibrator --size 6x6 --square 0.02 --pattern 'chessboard' --ros-args -r image:=/camera/image_1
+```
+
 Common errors:
 
 - using `python` instead of `python3`
