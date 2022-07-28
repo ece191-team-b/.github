@@ -9,6 +9,6 @@
 
 
 ## TODOs:
-- [ ] documentation
+- [ ] finish lidar + camera calibration
 - [ ] provide instructions on how to install and use the custom packages
-- [ ] 
+- [ ] documentation 
