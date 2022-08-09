@@ -2,6 +2,7 @@
 
 ## Documentations
 
+- [How to setup AGX for data collection](https://github.com/ece191-team-b/.github/blob/main/profile/setup.md)
 - [How to launch camera + lidar and collect data](https://github.com/ece191-team-b/.github/blob/main/profile/collect_data.md)
 - [How to install vscode on Jetson AGX](https://github.com/ece191-team-b/.github/blob/main/profile/install_vscode.md)
 - [How to change / customize fan profiles](https://github.com/ece191-team-b/.github/blob/main/profile/switch_fan_profile.md)
@@ -9,6 +10,6 @@
 
 
 ## TODOs:
-- [ ] finish lidar + camera calibration
-- [ ] provide instructions on how to install and use the custom packages
-- [ ] documentation 
+- [x] finish lidar + camera calibration
+- [x] provide instructions on how to install and use the custom packages
+- [ ] documentation (on-going)
