@@ -1,6 +1,6 @@
 # UCSD ECE191 Summer 22' TeamB Perception Instruction Overview
 
-#### Table of contents 
+## Table of contents 
 * [Installation](#Installation)
    * [Setting up AGX](#Setting-Up-AGX)
    * [Camera-Lidar Calibration](#camera-lidar-calibration)
@@ -140,5 +140,15 @@ git checkout noetic # make sure in the right branch
 ```
 and **copy only the cv_bridge folder** to where livox lidar camera calibration is at and rebuild the whole thing again.
 
-**Please then go to this [Repo Link](https://github.com/ece191-team-b/livox_camera_lidar_calibration) and follow the readme.**
+**Note**: To do calibration, there will be **TWO** terminals open, one in **_ROS noetic_ to record the rosbag of the lidar**, and the other will be our **Camera node in _ROS2 Galactic_.** Please only connect **ONE PAIR** of camera and lidar at a time for calibration. Details for lunching cameras can be found at [here](#cameras).
 
+**Please then go to this [repo Link](https://github.com/ece191-team-b/livox_camera_lidar_calibration) and follow the readme to calibration camera and lidar.**
+
+## Lidars 
+
+# TODO BEN 
+
+
+## Cameras 
+
+Please go to this [repo link](https://github.com/ece191-team-b/multi_cam_detection) for further instruction.
